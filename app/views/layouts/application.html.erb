@@ -5,9 +5,22 @@
   <%= stylesheet_link_tag    "application", :media => "all" %>
   <%= javascript_include_tag "application" %>
   <%= csrf_meta_tags %>
+  <link href='http://fonts.googleapis.com/css?family=Freckle+Face' rel='stylesheet' type='text/css'>
 </head>
 <body>
 
+<div class="navbar navbar-inverse">
+  <div class="navbar-inner navbar-static-top ">
+    <%= link_to "Zombie Survival Guide", root_url, :class => "brand" %>
+    <ul class="nav pull-right">
+      <li><a href="crew">Find your crew</a></li>
+      <li><a href="weapon">Choose your weapon</a></li>
+      <li><a href="supplies">Pack up</a></li>
+      <li><a href="location">Location</a></li>
+      <li><a href="#">Link</a></li>
+    </ul>
+  </div>
+</div>
 <%= yield %>
 
 </body>
