@@ -5,4 +5,6 @@ Techu::Application.routes.draw do
   get '/weapon' => 'zombies#weapon' , as: 'weapon'
   get '/supplies' => 'zombies#supplies' , as: 'supplies'
   get '/location' => 'zombies#location' , as: 'location'
+
+  get '/library' => 'library#home', as: 'library'
 end

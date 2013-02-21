@@ -24,18 +24,18 @@ h1, h3, h6 {
 	width: 250px;
 }
 
-.crew_position {
+.crew_position, .location-title{
 	font-weight: bold;
 	font-size: 40px;
 	color: white;
 }
 
-.crew {
+.crew, .locations{
 
 	margin-right: auto;
 	margin-left: auto;
 }
-.teammate , .item{
+.teammate , .item, .location{
 	list-style: none;
 	float: left;
 	padding: 10px;
