@@ -7,4 +7,5 @@ Techu::Application.routes.draw do
   get '/location' => 'zombies#location' , as: 'location'
 
   get '/library' => 'library#home', as: 'library'
+  get '/dragon' => 'dragon#zoo', as: 'dragon'
 end

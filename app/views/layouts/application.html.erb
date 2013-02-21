@@ -11,7 +11,7 @@
 
 <div class="navbar navbar-inverse">
   <div class="navbar-inner navbar-static-top ">
-    <%= link_to "Zombie Survival Guide", root_url, :class => "brand" %>
+    <%= link_to "Zombie Survival Guide", zombies_path , :class => "brand" %>
     <ul class="nav pull-right">
       <li><a href="crew">Find your crew</a></li>
       <li><a href="weapon">Choose your weapon</a></li>
@@ -21,13 +21,14 @@
       <li class="dropdown-submenu"><a tabindex="-1" href="#">More Assignments</a>
 		<ul class="dropdown-menu">
   			<li><a href="library">Library Sorting</a></li>
-  			<li><a href="#">Dragons!</a></li>
-  			<li><a href="#">My Person Video Pitch</a></li>
+  			<li><a href="dragon">Dragons!</a></li>
+  			<li><a href="#">My Personal Video Pitch</a></li>
 		</ul>
   	  </li>
     </ul>
   </div>
 </div>
+
 <%= yield %>
 
 </body>
