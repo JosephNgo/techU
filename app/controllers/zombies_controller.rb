@@ -15,4 +15,7 @@ class ZombiesController < ApplicationController
 	def location
 	end
 
+	def video
+	end
+
 end

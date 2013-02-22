@@ -1,3 +1,6 @@
+Please checkout my website where all of this is stored: 
+http://techu-zombieland-xxl-awesome.herokuapp.com/
+
 Try to do the following to the best of your ability. Please put answers into
 a github repository.
 

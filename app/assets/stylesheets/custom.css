@@ -60,11 +60,17 @@ h6{
 .supplies_img img{
 	border: solid 20px white;
 }
-.content{
+.content, .video{
 	background-color: white;
 	width: 70%;
 	padding: 10px;
 	margin: 20px;
+}
+.video {
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #84A218;
+	width: 640px;
 }
 .list-headline{
 	font-style: bold;

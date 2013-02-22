@@ -2,6 +2,8 @@
 <html>
 <head>
   <title>Techu</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="assets/css/bootstrap-responsive.css" rel="stylesheet">
   <%= stylesheet_link_tag    "application", :media => "all" %>
   <%= javascript_include_tag "application" %>
   <%= csrf_meta_tags %>
@@ -13,16 +15,16 @@
   <div class="navbar-inner navbar-static-top ">
     <%= link_to "Joe Ngo's Zombie Survival Guide", zombies_path , :class => "brand" %>
     <ul class="nav pull-right">
-      <li><a href="crew">Find your crew</a></li>
-      <li><a href="weapon">Choose your weapon</a></li>
-      <li><a href="supplies">Pack up</a></li>
+      <li><a href="crew">Crew</a></li>
+      <li><a href="weapon">Weapons</a></li>
+      <li><a href="supplies">Supplies</a></li>
       <li><a href="location">Location</a></li>
    
       <li class="dropdown-submenu"><a tabindex="-1" href="#">More Assignments</a>
 		<ul class="dropdown-menu">
-  			<li><a href="library">Library Sorting</a></li>
+  			<li><a href="library">Book Sorting</a></li>
   			<li><a href="dragon">Dragons!</a></li>
-  			<li><a href="#">My Personal Video Pitch</a></li>
+  			<li><a href="video">My Personal Video Pitch</a></li>
 		</ul>
   	  </li>
     </ul>
