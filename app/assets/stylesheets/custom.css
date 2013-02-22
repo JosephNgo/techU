@@ -1,41 +1,45 @@
 body {
 	background-image:url('background1.jpg'); 
 }
-.headline {
+.headline{
 	background: white;
 	opacity: .9;
 }
-.hero-img {
+.hero-img{
 	margin-right: auto;
 	margin-left: auto;
 	text-align: center;
 	float: right;
 }
-h1, h3, h6 {
+h1, 
+h3, 
+h6{
 	text-align: center;
 	font-family: 'Freckle Face', cursive;
 	font-weight: 800;
 }
-.container {
+.container{
 	margin-right: auto;
 	margin-left: auto;
 }
-.teammate {
+.teammate{
 	width: 250px;
 }
-
-.crew_position, .location-title{
+.crew_position, 
+.location-title{
 	font-weight: bold;
 	font-size: 40px;
 	color: white;
 }
-
-.crew, .locations{
+.crew, 
+.locations{
 
 	margin-right: auto;
 	margin-left: auto;
 }
-.teammate , .item, .location{
+.teammate , 
+.item, 
+.location{
 	list-style: none;
 	float: left;
 	padding: 10px;
@@ -48,7 +52,7 @@ h1, h3, h6 {
 	background-color: black;
 	color: #D3D3D3;
 }
-.supplies {
+.supplies{
 	width: 80%;
 	margin-left: auto;
 	margin-right: auto;
@@ -56,16 +60,22 @@ h1, h3, h6 {
 .supplies_img img{
 	border: solid 20px white;
 }
-.content {
+.content{
 	background-color: white;
 	width: 70%;
 	padding: 10px;
 	margin: 20px;
 }
-.list-headline {
+.list-headline{
 	font-style: bold;
 	font-size: 18px;
 	line-height: 150%;
+}
+.library{
+	background-color: white;
+}
+.unicorn{
+	background-color: white;
 }
 @media (max-width: 60px) {
 
